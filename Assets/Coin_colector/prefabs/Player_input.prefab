@@ -12,10 +12,11 @@ GameObject:
   - component: {fileID: 33366996531447852}
   - component: {fileID: 135446270631289636}
   - component: {fileID: 23390729753253766}
-  - component: {fileID: 114815521357285200}
   - component: {fileID: 54522610385347094}
+  - component: {fileID: 430398163}
+  - component: {fileID: 430398162}
   m_Layer: 0
-  m_Name: player
+  m_Name: Player_input
   m_TagString: Player
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -95,22 +96,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &114815521357285200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739828662808732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6468cced59ae794fa232cd60727a604, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Posicion_inicial: {x: 0.65, y: 0, z: 3.9}
-  _Horizontal: Horizontal
-  _Vertical: Vertical
-  _Speed: 10
 --- !u!54 &54522610385347094
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127,3 +112,46 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &430398163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739828662808732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c99a1e1e97f696289fe1278f643a59a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &430398162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739828662808732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 8f0d71b10b50d5d66981e622c58d3995,
+    type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}

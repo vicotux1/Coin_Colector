@@ -14,10 +14,10 @@ public class pause_manager : MonoBehaviour {
 	canvasPausa.enabled = false;
 	Time.timeScale = 1;
 	}
-	void Update(){
+	/*void Update(){
 		if (Input.GetButtonDown ("Cancel")){
 			Pause();}
-			}
+			}*/
 
 	#endregion
 	#region Pause		
