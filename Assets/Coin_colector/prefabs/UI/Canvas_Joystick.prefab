@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1280389856987468111}
   - component: {fileID: 1280389856987468110}
   - component: {fileID: 1280389856987468105}
+  - component: {fileID: 461759161}
   m_Layer: 5
   m_Name: Up
   m_TagString: Untagged
@@ -118,6 +119,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &461759161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280389856987468106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d54531977ecb194c95e2d3aa7a5d72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ControlPath: <Gamepad>/leftStick/up
 --- !u!1 &1280389857116390601
 GameObject:
   m_ObjectHideFlags: 0
@@ -130,6 +144,7 @@ GameObject:
   - component: {fileID: 1280389857116390642}
   - component: {fileID: 1280389857116390605}
   - component: {fileID: 1280389857116390604}
+  - component: {fileID: 461759162}
   m_Layer: 5
   m_Name: Down
   m_TagString: Untagged
@@ -236,6 +251,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &461759162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280389857116390601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d54531977ecb194c95e2d3aa7a5d72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ControlPath: <Gamepad>/leftStick/down
 --- !u!1 &1280389857449725233
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,6 +276,7 @@ GameObject:
   - component: {fileID: 1280389857449725242}
   - component: {fileID: 1280389857449725237}
   - component: {fileID: 1280389857449725236}
+  - component: {fileID: 461759163}
   m_Layer: 5
   m_Name: Right
   m_TagString: Untagged
@@ -354,6 +383,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &461759163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280389857449725233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d54531977ecb194c95e2d3aa7a5d72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ControlPath: <Gamepad>/leftStick/right
 --- !u!1 &1280389857558332896
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +455,7 @@ GameObject:
   - component: {fileID: 1280389857560279796}
   - component: {fileID: 1280389857560279803}
   - component: {fileID: 1280389857560279802}
+  - component: {fileID: 6497571440700077333}
   m_Layer: 5
   m_Name: Analog_image
   m_TagString: Untagged
@@ -476,6 +519,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6497571440700077333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280389857560279799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d677f1681015749b15c436eec6d880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MovementRange: 50
+  m_ControlPath: <Gamepad>/leftStick
 --- !u!1 &1280389858530776091
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,6 +545,7 @@ GameObject:
   - component: {fileID: 1280389858530776092}
   - component: {fileID: 1280389858530776095}
   - component: {fileID: 1280389858530776094}
+  - component: {fileID: 461759164}
   m_Layer: 5
   m_Name: Left
   m_TagString: Untagged
@@ -594,6 +652,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &461759164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280389858530776091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d54531977ecb194c95e2d3aa7a5d72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ControlPath: <Gamepad>/leftStick/left
 --- !u!1 &7578601103968802774
 GameObject:
   m_ObjectHideFlags: 0

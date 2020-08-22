@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Collections; 
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -14,11 +15,9 @@ public class pause_manager : MonoBehaviour {
 	canvasPausa.enabled = false;
 	Time.timeScale = 1;
 	}
-	/*void Update(){
-		if (Input.GetButtonDown ("Cancel")){
-			Pause();}
-			}*/
-
+	void OnCancel(InputValue Cancel){
+		Pause();
+		}
 	#endregion
 	#region Pause		
     public void Pause(){
