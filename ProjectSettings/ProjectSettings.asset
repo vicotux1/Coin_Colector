@@ -123,7 +123,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 0
-  bundleVersion: 1.5.01_Final
+  bundleVersion: 1.5.03_N_input
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -625,7 +625,7 @@ PlayerSettings:
   ps4IncludedModules: []
   ps4attribVROutputEnabled: 0
   monoEnv: 
-  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: 3cb4cac9da12d1cce9e3a743e42afb99,
+  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: 05677063d557507dabfeb1d2f637edd1,
     type: 3}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   blurSplashScreenBackground: 1
