@@ -126,6 +126,8 @@ PlayerSettings:
   bundleVersion: 1.5.03_N_input
   preloadedAssets:
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
