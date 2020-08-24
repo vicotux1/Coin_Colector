@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: VicotuxGames
-  productName: Coin_colector_X64
+  productName: Coin_colector_X86
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.29411763, g: 0.10380621, b: 0.10380621, a: 1}
@@ -125,6 +125,7 @@ PlayerSettings:
     Others: 0
   bundleVersion: 1.5.03_N_input
   preloadedAssets:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
