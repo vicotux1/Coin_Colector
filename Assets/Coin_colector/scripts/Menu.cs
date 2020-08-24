@@ -14,6 +14,11 @@ public class Menu : MonoBehaviour
         Application.Quit();
 		#endif
 		}
+		public void LevelSelect(string name){ 
+		Game_Manager.estancia.Reset_game();
+		SceneManager.LoadScene (name);
+		}
+
 	public void scene(string name){ 
 		SceneManager.LoadScene (name);
 		}

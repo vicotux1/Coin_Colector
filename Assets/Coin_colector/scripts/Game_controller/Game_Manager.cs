@@ -23,13 +23,16 @@ public class Game_Manager : MonoBehaviour
     public AudioClip Next_level_sound;
     //Variables Private
     AudioSource Audio;
+    int Lives_initial;
+    int Contador_initial;
     private void Update() {
         live_text.text=" "+Life;
     }
 
     private void Awake() {
     live_text.text=" "+Life;
-    _contador=0;    
+    Contador_initial=_contador; 
+    Lives_initial=Life;   
     Audio=GetComponent<AudioSource>();
 
 	Cursor.visible = false;
@@ -60,30 +63,31 @@ public class Game_Manager : MonoBehaviour
         }    
         IEnumerator GamOver(){
         nivel_text.text=Texto_GameOver;
-        _contador=0;
-        Life=5;
         yield return new WaitForSeconds(5);
         Puntos_text.text = "" +_contador;
         SceneManager.LoadScene (main_Menu);
+        Reset_game();
+        update_text();
+        Time.timeScale = Time.timeScale == 0 ? 1: 0;
     }
     IEnumerator Next_level(){
         nivel_text.text=Texto_Next_level;
         Audio.clip = Next_level_sound;
 		Audio.Play();
         yield return new WaitForSeconds(5);
-        if(SceneManager.GetActiveScene ().buildIndex + 1<total_levels){
+        if(SceneManager.GetActiveScene ().buildIndex + 1<total_levels){   
         int _Level=SceneManager.GetActiveScene ().buildIndex+ 1;    
         next_level=_Level.ToString();
         }
         else if (SceneManager.GetActiveScene ().buildIndex + 1>=total_levels){
+        Reset_game();
+        update_text();
         next_level=main_Menu;
-        Life=5;
         }
         SceneManager.LoadScene (next_level);
         _contador=0;
         yield return new WaitForSeconds(1);
-        nivel_text.text="";
-        
+        nivel_text.text=""; update_text();
     }
     IEnumerator Coins(){
         nivel_text.text="perdiste 1 vida, quedan "+ Life;
@@ -93,4 +97,13 @@ public class Game_Manager : MonoBehaviour
          live_text.text=" "+Life;
          nivel_text.text="";
          }
+         public void Reset_game(){
+        _contador=Contador_initial; 
+        Life=Lives_initial;
+        Time.timeScale = Time.timeScale == 0 ? 1: 0;
+        update_text();
+        }
+        public void update_text(){
+        live_text.text=" "+Life;
+        Puntos_text.text = "" +_contador;}
 }

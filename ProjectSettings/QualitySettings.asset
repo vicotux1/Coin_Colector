@@ -126,8 +126,8 @@ QualitySettings:
   - serializedVersion: 2
     name: High
     pixelLightCount: 2
-    shadows: 2
-    shadowResolution: 2
+    shadows: 1
+    shadowResolution: 1
     shadowProjection: 1
     shadowCascades: 2
     shadowDistance: 40
@@ -137,7 +137,7 @@ QualitySettings:
     shadowmaskMode: 1
     skinWeights: 2
     textureQuality: 0
-    anisotropicTextures: 2
+    anisotropicTextures: 0
     antiAliasing: 0
     softParticles: 0
     softVegetation: 1
