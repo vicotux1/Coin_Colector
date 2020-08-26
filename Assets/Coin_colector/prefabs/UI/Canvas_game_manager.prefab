@@ -324,7 +324,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.8
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -420,6 +420,7 @@ GameObject:
   - component: {fileID: 4560814024766598859}
   - component: {fileID: 4530104508202389545}
   - component: {fileID: 4530104508202389546}
+  - component: {fileID: 3972000934019574750}
   m_Layer: 5
   m_Name: Canvas_game_manager
   m_TagString: GameController
@@ -464,7 +465,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: -1
+  m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -519,17 +520,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c90e3fc0915c84f687f8010d3c29545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _contador: 0
+  main_Menu: 0
   Life: 5
   total_levels: 4
   next_level: 2
-  main_Menu: 0
-  Texto_GameOver: You loose!
-  Texto_Next_level: Next Level...
+  _GameOver: Game Over
+  _Next_level: Next Level...
   Puntos_text: {fileID: 7525220089779543476}
   nivel_text: {fileID: 7525220091078166821}
   live_text: {fileID: 1190834361717805166}
   MaxScore: 240
+  _contador: 0
   Coin_Sound: {fileID: 8300000, guid: 426c1af86cd22ebadaf82278e47dc571, type: 3}
   Winer_Sound: {fileID: 8300000, guid: 78f378a21dd9e7edfbf027cf49fa10fa, type: 3}
   Loose_Sound: {fileID: 8300000, guid: ff17569fb85cb4a7c8b343d81eea99d5, type: 3}
@@ -631,6 +632,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!225 &3972000934019574750
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4530104508202389547}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &7525220089779543466
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,7 +824,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: d255767d9d3d3bde1b3e51fff399952a, type: 3}
     m_FontSize: 80
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 100
