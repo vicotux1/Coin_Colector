@@ -19,6 +19,9 @@ public class pause_manager : MonoBehaviour {
 	public void Resolution480p (){
 		 Screen.SetResolution(848, 480, false);
 		}
+	public void Resolution600p (){
+		 Screen.SetResolution(1024, 600, false);
+		}	
 		public void Resolution720p (){
 		 Screen.SetResolution(1280, 720, false);
 		}

@@ -522,10 +522,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   main_Menu: 0
   Life: 5
-  total_levels: 4
+  total_levels: 5
   next_level: 2
+  Fuente_audio: {fileID: 7266802371720025873}
   _GameOver: Game Over
-  _Next_level: Next Level...
+  _Next_level: Level 0
   Puntos_text: {fileID: 7525220089779543476}
   nivel_text: {fileID: 7525220091078166821}
   live_text: {fileID: 1190834361717805166}
@@ -640,7 +641,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4530104508202389547}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0.85
   m_Interactable: 0
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0

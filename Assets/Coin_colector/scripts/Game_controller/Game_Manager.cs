@@ -12,7 +12,8 @@ public class Game_Manager : MonoBehaviour
     public string main_Menu;
     public int Life, total_levels;
     public string next_level;
-    
+    [Header ("Music Background")]
+    public AudioSource Fuente_audio;
 	[Header ("Texto a mostrar")]
     public string _GameOver;
     public string _Next_level ;
@@ -35,11 +36,14 @@ public class Game_Manager : MonoBehaviour
         live_text.text=" "+Life;
         }
     private void Awake() {
+    music();        
+    Debug.Log("esto es el awake"+SceneManager.GetActiveScene ().buildIndex);  
     Cursor.visible = false;    
     live_text.text=" "+Life;
     Contador_initial=_contador; 
     Lives_initial=Life;   
     Audio=GetComponent<AudioSource>();
+    StartCoroutine(LevelUI());
     singleton();
     }
     #endregion
@@ -52,11 +56,15 @@ public class Game_Manager : MonoBehaviour
     DontDestroyOnLoad(this.gameObject);}
     }
     #endregion
-    #region Text Update    
+    #region Text Update
+    public void music(){
+    Fuente_audio.enabled=true;  
+    }     
     public void Reset_game(){
         _contador=Contador_initial; 
         Life=Lives_initial;
         Time.timeScale = Time.timeScale == 0 ? 1: 0;
+        Fuente_audio.enabled=false;
         update_text();
         }
     public void update_text(){
@@ -91,16 +99,17 @@ public class Game_Manager : MonoBehaviour
          nivel_text.text="";
     }
     IEnumerator Next_level(){
-        nivel_text.text=_Next_level;
+        nivel_text.text="level Complete";
         Audio.clip = Next_level_sound;
 		Audio.Play();
-        int ActiveScene=SceneManager.GetActiveScene ().buildIndex;
         yield return new WaitForSeconds(5);
-        if(ActiveScene + 1<total_levels){   
-        int _Level=ActiveScene+ 1;    
-        next_level=_Level.ToString();
+        if(SceneManager.GetActiveScene ().buildIndex + 1<total_levels){ 
+        nivel_text.text="";
+        next_level=(SceneManager.GetActiveScene ().buildIndex + 1).ToString(); 
+        yield return new WaitForSeconds(5);
+        nivel_text.text="level:0"+(SceneManager.GetActiveScene ().buildIndex+1);
         }
-        else if (ActiveScene + 1>=total_levels){
+        else if (SceneManager.GetActiveScene ().buildIndex + 1>=total_levels){
         nivel_text.text="You Win";
         Reset_game();
         update_text();
@@ -121,6 +130,12 @@ public class Game_Manager : MonoBehaviour
         Reset_game();
         update_text();
         Time.timeScale = Time.timeScale == 0 ? 1: 0;
+    }
+    IEnumerator LevelUI(){
+        yield return new WaitForSeconds(5);
+        nivel_text.text="level:0"+(SceneManager.GetActiveScene ().buildIndex);
+        yield return new WaitForSeconds(10);
+        nivel_text.text="";
     }
     #endregion
 }

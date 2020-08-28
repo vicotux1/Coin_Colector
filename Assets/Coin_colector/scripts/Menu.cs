@@ -31,6 +31,7 @@ public class Menu : MonoBehaviour
 		
 		public void LevelSelect(string name){ 
 		Game_Manager.estancia.Reset_game();
+		Game_Manager.estancia.music();
 		SceneManager.LoadScene (name);
 		}
 
@@ -43,6 +44,7 @@ public class Menu : MonoBehaviour
 
 	public void scene(string name){ 
 		SceneManager.LoadScene (name);
+		Game_Manager.estancia.music();
 		}
 	public void Vsync(int Vsync){
 		QualitySettings.vSyncCount = Vsync;}
