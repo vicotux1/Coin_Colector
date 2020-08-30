@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 5697647368993365160}
-  m_IndirectSpecularColor: {r: 0.49123776, g: 0.57249403, b: 0.6958477, a: 1}
+  m_IndirectSpecularColor: {r: 1.0371844, g: 1.19918, b: 1.4594362, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 3bf9184be0a6f2534bc1f0bec5d80bf7,
+  m_LightingDataAsset: {fileID: 112000000, guid: d05c7188f419ed459953b8f005fe4ed2,
     type: 2}
   m_UseShadowmask: 0
 --- !u!196 &4

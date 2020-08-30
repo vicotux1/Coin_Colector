@@ -98,7 +98,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 45e06d6c86503c254ab9f6a3205ff2e3,
+  m_LightingDataAsset: {fileID: 112000000, guid: 4d00a4981b45b4706baaff7714141967,
     type: 2}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -415,11 +415,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6763544587949014708, guid: fd16627bac110ace4a10796fa5cb16d1,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8103432228111971762, guid: fd16627bac110ace4a10796fa5cb16d1,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -444,11 +439,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas_pause
-      objectReference: {fileID: 0}
-    - target: {fileID: 8623236230899203459, guid: fd16627bac110ace4a10796fa5cb16d1,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8917135518166846673, guid: fd16627bac110ace4a10796fa5cb16d1,
         type: 3}

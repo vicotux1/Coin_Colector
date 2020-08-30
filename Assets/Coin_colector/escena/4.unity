@@ -98,7 +98,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 9b7d9be16616ec97f91a5ec5e2f669c4,
+  m_LightingDataAsset: {fileID: 112000000, guid: cd0e39c744950c9d4bf57ecdae884615,
     type: 2}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -1870,7 +1870,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 7623765990904886968}
+      objectReference: {fileID: 0}
     - target: {fileID: 1027925010988119845, guid: fd16627bac110ace4a10796fa5cb16d1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3499,18 +3499,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a9fcf134c4a09bbd92d421a77654e1e, type: 3}
---- !u!114 &7623765990904886968 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7623765990953809522, guid: 0a9fcf134c4a09bbd92d421a77654e1e,
-    type: 3}
-  m_PrefabInstance: {fileID: 7623765990904886967}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &8019968222533301670 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8929920112487879206, guid: f7748c8da9a9605f39963a21925a4d87,
