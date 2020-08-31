@@ -5,6 +5,6 @@
 
 "EN" Game made following the tutorial of "Roll-a-ball" (https://learn.unity.com/project/roll-a-ball-tutorial) from Unity Tecnologies and expanded to a game with mazes and various levels.
  
--1.5.4.Mundo1_new_Input
+-1.5.5_menuUI.Update
 
-[![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Input_System/Assets/capturas/1.5.5_menuUI.Update.png)
+![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Input_System/Assets/capturas/1.5.5_menuUI.Update.png)
