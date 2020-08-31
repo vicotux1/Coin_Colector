@@ -8,3 +8,10 @@
 -1.5.5_MenuUI.Update
 
 ![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Input_System/Assets/capturas/1.5.5_menuUI.Update.png)
+-1.5.5_Level1
+![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Input_System/Assets/capturas/1.5.5_Level1.png)
+-1.5.5_Pause_menu
+![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Input_System/Assets/capturas/Pause_menu.1.5.5.png)
+
+
+
