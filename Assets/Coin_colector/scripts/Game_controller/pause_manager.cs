@@ -16,8 +16,19 @@ public class pause_manager : MonoBehaviour {
 	Time.timeScale = 1;
 	Cursor.visible = false;
 	}
-	public void Resolution480p (){
+	public void setResolution (int setResolution){
+		if(setResolution==0){
 		 Screen.SetResolution(848, 480, false);
+			}if(setResolution==1){
+		 Screen.SetResolution(1024, 600, false);
+			}
+			if(setResolution==2){
+		 Screen.SetResolution(1280, 720, false);
+			}
+			if(setResolution==3){
+		 Screen.SetResolution(1920, 1080, false);
+			}
+			Debug.Log("SetResolution "+setResolution);
 		}
 	public void Resolution600p (){
 		 Screen.SetResolution(1024, 600, false);
@@ -42,6 +53,7 @@ public class pause_manager : MonoBehaviour {
 	#region quality	
 	public void antiAliasing_Quality (int Level){
 	QualitySettings.antiAliasing = Level;
+	Debug.Log("antiAliasing level "+Level);
 	}
 	public void scene(string name){ 
 	SceneManager.LoadScene (name);

@@ -26,6 +26,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5141141444065690447, guid: d2c124b8ba6694cf190558b5d06a0c51,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.17
+      objectReference: {fileID: 0}
     - target: {fileID: 5505321851135268508, guid: d2c124b8ba6694cf190558b5d06a0c51,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -104,7 +109,7 @@ PrefabInstance:
     - target: {fileID: 5505321851137525852, guid: d2c124b8ba6694cf190558b5d06a0c51,
         type: 3}
       propertyPath: m_Name
-      value: Coin_30_2
+      value: Coin_30
       objectReference: {fileID: 0}
     - target: {fileID: 5505321851137525852, guid: d2c124b8ba6694cf190558b5d06a0c51,
         type: 3}

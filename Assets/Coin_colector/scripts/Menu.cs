@@ -46,6 +46,15 @@ public class Menu : MonoBehaviour
 		SceneManager.LoadScene (name);
 		Game_Manager.estancia.music();
 		}
-	public void Vsync(int Vsync){
-		QualitySettings.vSyncCount = Vsync;}
+	public void SetQuality(int qualityIndex){
+		 QualitySettings.SetQualityLevel(qualityIndex);
+		}
+		public void fullScreen(bool Fullscreen){
+	Screen.fullScreen = Fullscreen;
+	}
+
+
+
+
+
 }
