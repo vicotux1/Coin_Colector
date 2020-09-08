@@ -8,9 +8,19 @@ using UnityEditor;
 public class Menu : MonoBehaviour
 {
 	public AudioSource Audio;
+	[Range(1,3)][SerializeField]int _MenuID=1;
 	public AudioClip Button;
-	private void Awake() {
+	public GameObject mainmenu,options,levelEdit;
+	private void Awake(){
 		cursorfalse();
+		if(_MenuID==1){
+			mainmenuOn();
+		}if(_MenuID==2){
+			optionsOn();
+		}if(_MenuID==3){
+			levelEditOn();
+		}
+
 	}
 	public void Quit(){
         #if UNITY_EDITOR 
@@ -19,9 +29,24 @@ public class Menu : MonoBehaviour
         Application.Quit();
 		#endif
 		}
+	public void mainmenuOn(){
+		mainmenu.SetActive(true);
+		options.SetActive(false);
+		levelEdit.SetActive(false);
+	}
+	public void optionsOn(){
+		mainmenu.SetActive(false);
+		options.SetActive(true);
+		levelEdit.SetActive(false);
+	}
+	public void levelEditOn(){
+		mainmenu.SetActive(false);
+		options.SetActive(false);
+		levelEdit.SetActive(true);
+	}		
 		
-	public void cursorF(){
-		Application.OpenURL("http://www.youtube.com/eltuga24");
+	public void cursorF(string url){
+		Application.OpenURL(url);
 	}
 	public void buttonsound() {
 		Audio.clip =Button;
@@ -47,7 +72,16 @@ public class Menu : MonoBehaviour
 		Game_Manager.estancia.music();
 		}
 	public void SetQuality(int qualityIndex){
-		 QualitySettings.SetQualityLevel(qualityIndex);
+		if(qualityIndex==0){
+			QualitySettings.SetQualityLevel(2);
+			}
+		if(qualityIndex==1){
+			QualitySettings.SetQualityLevel(1);
+			}
+		if(qualityIndex==2){
+			QualitySettings.SetQualityLevel(0);
+			}	
+		 
 		}
 		public void fullScreen(bool Fullscreen){
 	Screen.fullScreen = Fullscreen;

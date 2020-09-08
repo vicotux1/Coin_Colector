@@ -2,8 +2,10 @@
 using UnityEngine; 
 using System.Collections; 
 using UnityEngine.UI;
+using UnityStandardAssets;
+using UnityStandardAssets.CrossPlatformInput;
 using UnityEngine.SceneManagement;
-using UnityEngine.InputSystem;
+
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -17,9 +19,9 @@ public class pause_manager : MonoBehaviour {
 	Cursor.visible = false;
 	}
 	public void setResolution (int setResolution){
-		if(setResolution==0){
+		if(setResolution==1){
 		 Screen.SetResolution(848, 480, false);
-			}if(setResolution==1){
+			}if(setResolution==0){
 		 Screen.SetResolution(1024, 600, false);
 			}
 			if(setResolution==2){
@@ -30,18 +32,11 @@ public class pause_manager : MonoBehaviour {
 			}
 			Debug.Log("SetResolution "+setResolution);
 		}
-	public void Resolution600p (){
-		 Screen.SetResolution(1024, 600, false);
-		}	
-		public void Resolution720p (){
-		 Screen.SetResolution(1280, 720, false);
-		}
-		public void Resolution1080p (){
-		 Screen.SetResolution(1920, 1080, false);
-		}
-	void OnCancel(InputValue Cancel){
-		Pause();
-		Cursor.visible = !true;
+		void Update(){
+		if (CrossPlatformInputManager.GetButtonDown ("Cancel")){
+			Pause();
+			Cursor.visible = !true;
+			}
 		}
 	#endregion
 	#region Pause		

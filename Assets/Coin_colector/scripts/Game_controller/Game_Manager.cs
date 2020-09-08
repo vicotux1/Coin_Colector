@@ -43,7 +43,7 @@ public class Game_Manager : MonoBehaviour
     Contador_initial=_contador; 
     Lives_initial=Life;   
     Audio=GetComponent<AudioSource>();
-    StartCoroutine(LevelUI());
+    //StartCoroutine(LevelUI());
     singleton();
     }
     #endregion

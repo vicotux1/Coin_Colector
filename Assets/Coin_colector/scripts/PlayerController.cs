@@ -1,11 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityStandardAssets.CrossPlatformInput;
 
-public class PlayerController : MonoBehaviour
-{
-    
+public class PlayerController : MonoBehaviour{
     [Range(1.0f, 200.0f)][SerializeField]private float speed=10.0f;
     public Vector3 Posicion_inicial;
     private float MovX, MovY;
@@ -18,13 +16,15 @@ public class PlayerController : MonoBehaviour
         }
 
     void FixedUpdate(){
-        Vector3 Move=new Vector3(MovX,0,MovY);
-        rb.AddForce(Move*speed);
+        MovX=CrossPlatformInputManager.GetAxis("Horizontal");
+        MovY=CrossPlatformInputManager.GetAxis("Vertical");
+        Debug.Log(MovX);
+        Debug.Log(MovY);
+        OnMove(MovX,MovY);
     }
-    void OnMove(InputValue moveValue){
-        Vector2 moveVector=moveValue.Get<Vector2>();
-        MovX=moveVector.x;
-        MovY=moveVector.y;
+    void OnMove(float MovY, float MovX){
+        Vector3 moveVector=new Vector3(MovY,0,MovX);
+        rb.AddForce(moveVector*speed);
     }
     void OnTriggerEnter(Collider other){
         if (other.tag == "Enemy"){

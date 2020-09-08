@@ -31,6 +31,11 @@ PrefabInstance:
       propertyPath: Points
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 1238105942731404795, guid: 23a621ecb6d9be133bff9997c40d0b2b,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.17
+      objectReference: {fileID: 0}
     - target: {fileID: 1878413507909656616, guid: 23a621ecb6d9be133bff9997c40d0b2b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

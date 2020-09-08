@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5686263213710206467
 Transform:
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3a01c9d120cf521c7b462ea44bec195c, type: 2}
+  - {fileID: 2100000, guid: 7d960763ecd2730e0be089e67e770a1b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -108,7 +108,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5686263215471613702
 Transform:
@@ -151,7 +151,7 @@ GameObject:
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7452168098232552161
 Transform:
@@ -162,7 +162,7 @@ Transform:
   m_GameObject: {fileID: 7452168098232552162}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 1, z: 1.5}
   m_Children:
   - {fileID: 7821077218226788462}
   - {fileID: 7821077217829382425}
@@ -188,6 +188,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: muro_esquina
+      objectReference: {fileID: 0}
+    - target: {fileID: 856078844148741709, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 856078844148741710, guid: 4e5121ff74195e67ca02d4465228453f,
         type: 3}
@@ -259,6 +264,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 938401868869343330, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016089006593532089, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5636459143948956676, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e5121ff74195e67ca02d4465228453f, type: 3}
 --- !u!4 &7821077218226788462 stripped
@@ -274,6 +294,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7452168098232552161}
     m_Modifications:
+    - target: {fileID: 3825080051174790432, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511809356580846949, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430088162183755095, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 9150617852215495581, guid: ba1d4f3553322198dbca0135722446b5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -349,6 +384,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: muro1
       objectReference: {fileID: 0}
+    - target: {fileID: 9150617852215495582, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba1d4f3553322198dbca0135722446b5, type: 3}
 --- !u!4 &1843921762393105357 stripped
@@ -368,6 +408,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: muro_esquina (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 856078844148741709, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 856078844148741710, guid: 4e5121ff74195e67ca02d4465228453f,
         type: 3}
@@ -439,6 +484,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 938401868869343330, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016089006593532089, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5636459143948956676, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e5121ff74195e67ca02d4465228453f, type: 3}
 --- !u!4 &7821077218371431273 stripped
@@ -454,6 +514,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7452168098232552161}
     m_Modifications:
+    - target: {fileID: 3825080051174790432, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511809356580846949, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430088162183755095, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 9150617852215495581, guid: ba1d4f3553322198dbca0135722446b5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -529,6 +604,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: muro1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 9150617852215495582, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba1d4f3553322198dbca0135722446b5, type: 3}
 --- !u!4 &1843921763154040584 stripped
@@ -544,6 +624,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7452168098232552161}
     m_Modifications:
+    - target: {fileID: 3825080051174790432, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511809356580846949, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430088162183755095, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 9150617852215495581, guid: ba1d4f3553322198dbca0135722446b5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -619,6 +714,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: muro1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9150617852215495582, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba1d4f3553322198dbca0135722446b5, type: 3}
 --- !u!4 &1843921762846138356 stripped
@@ -638,6 +738,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: muro_esquina (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 856078844148741709, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 856078844148741710, guid: 4e5121ff74195e67ca02d4465228453f,
         type: 3}
@@ -709,6 +814,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 938401868869343330, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016089006593532089, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5636459143948956676, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e5121ff74195e67ca02d4465228453f, type: 3}
 --- !u!4 &7821077217499709322 stripped
@@ -724,6 +844,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7452168098232552161}
     m_Modifications:
+    - target: {fileID: 3825080051174790432, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511809356580846949, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430088162183755095, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 9150617852215495581, guid: ba1d4f3553322198dbca0135722446b5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -799,6 +934,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: muro1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9150617852215495582, guid: ba1d4f3553322198dbca0135722446b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba1d4f3553322198dbca0135722446b5, type: 3}
 --- !u!4 &1843921761410860629 stripped
@@ -818,6 +958,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: muro_esquina (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 856078844148741709, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 856078844148741710, guid: 4e5121ff74195e67ca02d4465228453f,
         type: 3}
@@ -888,6 +1033,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 938401868869343330, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016089006593532089, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5636459143948956676, guid: 4e5121ff74195e67ca02d4465228453f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e5121ff74195e67ca02d4465228453f, type: 3}

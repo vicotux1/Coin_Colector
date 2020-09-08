@@ -61,7 +61,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 90
   orthographic: 0
   orthographic size: 6
   m_Depth: -1
@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faea27cf99b081aa68b341d84f9bd49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Distancia_a_seguir: {x: 0, y: 5, z: -4.5}
+  _Distancia_a_seguir: {x: 0, y: 4, z: -2}
   smoothSpeed: 1
   RotX: 60
   RotY: 0
@@ -121,12 +121,12 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7623765990953809416}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b875832e6eb7a35bda115664296e13d0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -156,13 +156,13 @@ MonoBehaviour:
   LUT: 1
   LutAmount: 0.5
   SourceLut: {fileID: 2800000, guid: 721017178fc4f324aae148977215c5ae, type: 3}
-  ImageFiltering: 0
+  ImageFiltering: 1
   Color: {r: 1, g: 1, b: 1, a: 1}
-  Contrast: 0.25
-  Brightness: 0.25
-  Saturation: 0.1
-  Exposure: 0.25
-  Gamma: 0.25
+  Contrast: 0.4
+  Brightness: 0
+  Saturation: -0.15
+  Exposure: 0
+  Gamma: 0.3
   Sharpness: 0
   ChromaticAberration: 1
   Offset: 0
