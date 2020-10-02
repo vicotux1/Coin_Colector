@@ -8,19 +8,16 @@ using UnityEditor;
 public class Menu : MonoBehaviour
 {
 	public AudioSource Audio;
-	[Range(1,3)][SerializeField]int _MenuID=1;
+	[Range(1,2)][SerializeField]int _MenuID=1;
 	public AudioClip Button;
-	public GameObject mainmenu,options,levelEdit;
+	public GameObject mainmenu,options;
 	private void Awake(){
 		cursorfalse();
 		if(_MenuID==1){
 			mainmenuOn();
 		}if(_MenuID==2){
 			optionsOn();
-		}if(_MenuID==3){
-			levelEditOn();
 		}
-
 	}
 	public void Quit(){
         #if UNITY_EDITOR 
@@ -32,18 +29,14 @@ public class Menu : MonoBehaviour
 	public void mainmenuOn(){
 		mainmenu.SetActive(true);
 		options.SetActive(false);
-		levelEdit.SetActive(false);
+		
 	}
 	public void optionsOn(){
 		mainmenu.SetActive(false);
 		options.SetActive(true);
-		levelEdit.SetActive(false);
+		
 	}
-	public void levelEditOn(){
-		mainmenu.SetActive(false);
-		options.SetActive(false);
-		levelEdit.SetActive(true);
-	}		
+			
 		
 	public void cursorF(string url){
 		Application.OpenURL(url);

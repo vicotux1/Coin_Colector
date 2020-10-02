@@ -5,6 +5,7 @@ using UnityEngine.Audio;
 
 public class GM_sound : MonoBehaviour{
     public AudioMixer audiomixer;
+    
     public GameObject load_text; 
     public void FxSound(float Fxvolumen){
        audiomixer.SetFloat("Fxvolumen",Fxvolumen) ;
@@ -20,8 +21,9 @@ public class GM_sound : MonoBehaviour{
 	}
     IEnumerator LevelUI(){
        load_text.SetActive(true);
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(8);
       load_text.SetActive(false);
+      yield return new WaitForSeconds(2);
     }
    public void setResolution (int setResolution){
 		if(setResolution==1){

@@ -26,7 +26,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Coin_colector/escena/6.unity
     guid: 19d81dd278e13370fb56f6434ad12ff3
-  - enabled: 1
-    path: Assets/Coin_colector/escena/00.unity
-    guid: 9ba6af1f48ddef288986308a2955e911
   m_configObjects: {}
