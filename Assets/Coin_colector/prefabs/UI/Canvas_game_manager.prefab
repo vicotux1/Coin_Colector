@@ -525,13 +525,14 @@ MonoBehaviour:
   main_Menu: 0
   Life: 5
   total_levels: 5
-  next_level: 2
+  next_level: 3
   Fuente_audio: {fileID: 7266802371720025873}
   _GameOver: Game Over
   _Next_level: Level 0
   Puntos_text: {fileID: 7525220089779543476}
   nivel_text: {fileID: 7525220091078166821}
   live_text: {fileID: 1190834361717805166}
+  highScore: {fileID: 3555347621092016830}
   MaxScore: 240
   _contador: 0
   Coin_Sound: {fileID: 8300000, guid: 426c1af86cd22ebadaf82278e47dc571, type: 3}

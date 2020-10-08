@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0.7
+  m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 1d0e6c14c2047b5c3a4fb4f1a3d050ac, type: 2}
@@ -1642,6 +1642,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -7916274500106381960, guid: e3487f24e24babb3e84897f59988bf9b,
         type: 2}
+    - target: {fileID: 9024279764258365890, guid: fcb2986ae55c9cdf2ac251566d0e716f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
+      objectReference: {fileID: 0}
     - target: {fileID: 9024279764816812363, guid: fcb2986ae55c9cdf2ac251566d0e716f,
         type: 3}
       propertyPath: m_Name
@@ -3488,20 +3493,25 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 4530104508202389545, guid: 3d0bf609b722111aba5b6481fb67645d,
-        type: 3}
-      propertyPath: next_level
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4530104508202389547, guid: 3d0bf609b722111aba5b6481fb67645d,
         type: 3}
       propertyPath: m_Name
       value: Canvas_game_manager_02
       objectReference: {fileID: 0}
+    - target: {fileID: 4560814024766598859, guid: 3d0bf609b722111aba5b6481fb67645d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4784247112306205576, guid: 3d0bf609b722111aba5b6481fb67645d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223285970850637205, guid: 3d0bf609b722111aba5b6481fb67645d,
+        type: 3}
+      propertyPath: m_Name
+      value: high_score_Text
       objectReference: {fileID: 0}
     - target: {fileID: 6827924491004166594, guid: 3d0bf609b722111aba5b6481fb67645d,
         type: 3}

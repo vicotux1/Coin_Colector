@@ -19,7 +19,7 @@ public class Game_Manager : MonoBehaviour
     public string _Next_level ;
 	[Header ("Texto en UI")]
     public Text Puntos_text; 
-    public Text nivel_text,live_text;
+    public Text nivel_text,live_text,highScore;
 	[Header ("Points")]
     [SerializeField][Range (10, 500)]int MaxScore=10;
     public int _contador=0;
@@ -29,23 +29,36 @@ public class Game_Manager : MonoBehaviour
     #region Variables Private
     AudioSource Audio;
     int Lives_initial;
-    int Contador_initial;
+    int Contador_initial,Contador_total;
+    PlayerController Player;
+    
     #endregion
     #region Funtions Unity
     private void Update() {
         live_text.text=" "+Life;
         }
     private void Awake() {
-    music();        
-    Debug.Log("esto es el awake"+SceneManager.GetActiveScene ().buildIndex);  
+    LoadData();
+    Player = FindObjectOfType<PlayerController>();
+    music(); 
     Cursor.visible = false;    
     live_text.text=" "+Life;
     Contador_initial=_contador; 
     Lives_initial=Life;   
     Audio=GetComponent<AudioSource>();
-    //StartCoroutine(LevelUI());
     singleton();
     }
+     void SaveData(){
+    if (Contador_total> PlayerPrefs.GetInt("HighScore", 0)){
+    PlayerPrefs.SetInt("HighScore", Contador_total);
+    highScore.text=Contador_total.ToString();
+        }
+    }
+    void LoadData(){
+    PlayerPrefs.GetInt("HighScore", Contador_total);
+    highScore.text=Contador_total.ToString();
+    }
+    
     #endregion
     #region Sigleton
     public static Game_Manager estancia;
@@ -78,13 +91,14 @@ public class Game_Manager : MonoBehaviour
         Audio.clip = Coin_Sound;
 		Audio.Play();
 		Puntos_text.text = "" +_contador;
-		if( _contador==MaxScore){
+		if( _contador>=MaxScore){
             StartCoroutine(Next_level());} 
         }
     public void Lives(){
         Life = Life -1;
         StartCoroutine(Coins());
 		if( Life==0){
+        Player.speed=0;
     StartCoroutine(GamOver());
     }
 } 
@@ -106,8 +120,8 @@ public class Game_Manager : MonoBehaviour
         if(SceneManager.GetActiveScene ().buildIndex + 1<total_levels){ 
         nivel_text.text="";
         next_level=(SceneManager.GetActiveScene ().buildIndex + 1).ToString(); 
-        yield return new WaitForSeconds(5);
-        nivel_text.text="level:0"+(SceneManager.GetActiveScene ().buildIndex+1);
+        //yield return new WaitForSeconds(5);
+        //nivel_text.text="level:0"+(SceneManager.GetActiveScene ().buildIndex+1);
         }
         else if (SceneManager.GetActiveScene ().buildIndex + 1>=total_levels){
         nivel_text.text="You Win";
@@ -116,26 +130,35 @@ public class Game_Manager : MonoBehaviour
         next_level=main_Menu;
         }
         SceneManager.LoadScene (next_level);
+        Contador_total=Contador_total+_contador;
+        highScore.text=Contador_total.ToString();
+        if (Contador_total> PlayerPrefs.GetInt("HighScore", 0)){
+    PlayerPrefs.SetInt("HighScore", Contador_total);
+    highScore.text=Contador_total.ToString();
+        }
         _contador=0;
+        
         yield return new WaitForSeconds(1);
         nivel_text.text=""; update_text();
     } 
     IEnumerator GamOver(){
         Audio.clip = Loose_Sound;
-        Audio.Play();
+        
         nivel_text.text=_GameOver;
+    
         yield return new WaitForSeconds(5);
         Puntos_text.text = "" +_contador;
+        
+        SaveData();
+        Contador_total=0;highScore.text=0.ToString();
+
+        //Destroy(gameObject,0.5f);
         SceneManager.LoadScene (main_Menu);
+
         Reset_game();
         update_text();
         Time.timeScale = Time.timeScale == 0 ? 1: 0;
     }
-    IEnumerator LevelUI(){
-        yield return new WaitForSeconds(5);
-        nivel_text.text="level:0"+(SceneManager.GetActiveScene ().buildIndex);
-        yield return new WaitForSeconds(10);
-        nivel_text.text="";
-    }
+    
     #endregion
 }

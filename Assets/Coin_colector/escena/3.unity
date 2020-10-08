@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 44f2971b2f43478a880c964787268a30, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 1d0e6c14c2047b5c3a4fb4f1a3d050ac, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -1760,6 +1760,16 @@ PrefabInstance:
       propertyPath: Gamma
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 3316011045042589190, guid: 0a9fcf134c4a09bbd92d421a77654e1e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316011045042589190, guid: 0a9fcf134c4a09bbd92d421a77654e1e,
+        type: 3}
+      propertyPath: ImageFiltering
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7623765990953809416, guid: 0a9fcf134c4a09bbd92d421a77654e1e,
         type: 3}
       propertyPath: m_Name
@@ -2113,6 +2123,23 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Level 03
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024279764258365889, guid: fcb2986ae55c9cdf2ac251566d0e716f,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e3487f24e24babb3e84897f59988bf9b,
+        type: 2}
+    - target: {fileID: 9024279764258365889, guid: fcb2986ae55c9cdf2ac251566d0e716f,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -7916274500106381960, guid: e3487f24e24babb3e84897f59988bf9b,
+        type: 2}
+    - target: {fileID: 9024279764258365890, guid: fcb2986ae55c9cdf2ac251566d0e716f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 9024279764816812363, guid: fcb2986ae55c9cdf2ac251566d0e716f,
         type: 3}
@@ -3662,17 +3689,17 @@ PrefabInstance:
     - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
         type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0.3679245
       objectReference: {fileID: 0}
     - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
         type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.3679245
       objectReference: {fileID: 0}
     - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
         type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0.3679245
       objectReference: {fileID: 0}
     - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
         type: 3}

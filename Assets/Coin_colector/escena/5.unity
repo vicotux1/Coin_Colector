@@ -888,6 +888,11 @@ PrefabInstance:
       propertyPath: m_text
       value: Level 05
       objectReference: {fileID: 0}
+    - target: {fileID: 9024279764258365890, guid: fcb2986ae55c9cdf2ac251566d0e716f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
+      objectReference: {fileID: 0}
     - target: {fileID: 9024279764816812363, guid: fcb2986ae55c9cdf2ac251566d0e716f,
         type: 3}
       propertyPath: m_Name

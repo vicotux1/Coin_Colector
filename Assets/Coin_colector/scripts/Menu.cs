@@ -62,7 +62,7 @@ public class Menu : MonoBehaviour
 
 	public void scene(string name){ 
 		SceneManager.LoadScene (name);
-		Game_Manager.estancia.music();
+		
 		}
 	public void SetQuality(int qualityIndex){
 		if(qualityIndex==0){

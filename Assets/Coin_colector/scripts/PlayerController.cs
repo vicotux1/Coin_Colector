@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerController : MonoBehaviour{
-    [Range(1.0f, 200.0f)][SerializeField]private float speed=10.0f;
+    [Range(1.0f, 200.0f)]public float speed=10.0f;
     public Vector3 Posicion_inicial;
     private float MovX, MovY;
     private Rigidbody rb;

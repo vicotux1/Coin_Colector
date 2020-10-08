@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 5697647368993365160}
-  m_IndirectSpecularColor: {r: 1.0303708, g: 1.1912483, b: 1.4476728, a: 1}
+  m_IndirectSpecularColor: {r: 1.0371844, g: 1.19918, b: 1.4594362, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1581,6 +1581,23 @@ PrefabInstance:
       propertyPath: m_text
       value: Level 01
       objectReference: {fileID: 0}
+    - target: {fileID: 9024279764258365889, guid: fcb2986ae55c9cdf2ac251566d0e716f,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e3487f24e24babb3e84897f59988bf9b,
+        type: 2}
+    - target: {fileID: 9024279764258365889, guid: fcb2986ae55c9cdf2ac251566d0e716f,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -7916274500106381960, guid: e3487f24e24babb3e84897f59988bf9b,
+        type: 2}
+    - target: {fileID: 9024279764258365890, guid: fcb2986ae55c9cdf2ac251566d0e716f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
+      objectReference: {fileID: 0}
     - target: {fileID: 9024279764816812360, guid: fcb2986ae55c9cdf2ac251566d0e716f,
         type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
@@ -2489,6 +2506,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4530104508202389545, guid: 3d0bf609b722111aba5b6481fb67645d,
+        type: 3}
+      propertyPath: MaxScore
+      value: 240
+      objectReference: {fileID: 0}
     - target: {fileID: 4530104508202389547, guid: 3d0bf609b722111aba5b6481fb67645d,
         type: 3}
       propertyPath: m_Name
@@ -2504,10 +2526,40 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7525220091078166808, guid: 3d0bf609b722111aba5b6481fb67645d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7525220091078166808, guid: 3d0bf609b722111aba5b6481fb67645d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7525220091078166808, guid: 3d0bf609b722111aba5b6481fb67645d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7525220091078166808, guid: 3d0bf609b722111aba5b6481fb67645d,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 7525220091078166821, guid: 3d0bf609b722111aba5b6481fb67645d,
         type: 3}
       propertyPath: m_Text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7525220091078166821, guid: 3d0bf609b722111aba5b6481fb67645d,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7525220091078166821, guid: 3d0bf609b722111aba5b6481fb67645d,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 45
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d0bf609b722111aba5b6481fb67645d, type: 3}
@@ -2772,17 +2824,17 @@ PrefabInstance:
     - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.745283
+      value: 0.990566
       objectReference: {fileID: 0}
     - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.745283
+      value: 0.9578586
       objectReference: {fileID: 0}
     - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.745283
+      value: 0.9578586
       objectReference: {fileID: 0}
     - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
         type: 3}
@@ -3195,6 +3247,11 @@ PrefabInstance:
       propertyPath: Gamma
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 3316011045042589190, guid: 0a9fcf134c4a09bbd92d421a77654e1e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7623765990953809416, guid: 0a9fcf134c4a09bbd92d421a77654e1e,
         type: 3}
       propertyPath: m_Name
@@ -3500,6 +3557,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5857012035919161643, guid: fd16627bac110ace4a10796fa5cb16d1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6932998373847791215, guid: fd16627bac110ace4a10796fa5cb16d1,
         type: 3}
