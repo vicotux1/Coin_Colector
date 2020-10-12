@@ -46,6 +46,34 @@ public class Menu : MonoBehaviour
 		Audio.Play();
 		cursortrue();
 	}
+	public void Shadows(int qualityIndex){
+		
+		if(qualityIndex==0){
+			QualitySettings.shadowResolution=ShadowResolution.Low;
+		}
+		if(qualityIndex==1){
+			QualitySettings.shadowResolution=ShadowResolution.Medium;
+		}
+		if(qualityIndex==2){
+			QualitySettings.shadowResolution=ShadowResolution.High;
+		}
+			if(qualityIndex==3){
+			QualitySettings.shadowResolution=ShadowResolution.VeryHigh;
+			 
+		}
+	}
+	public void vSync(int qualityIndex){
+		
+		if(qualityIndex==0){
+			QualitySettings.vSyncCount = 0;
+		}
+		if(qualityIndex==1){
+			QualitySettings.vSyncCount = 1;
+		}
+		if(qualityIndex==2){
+			QualitySettings.vSyncCount = 2;
+		}
+	}
 		
 		public void LevelSelect(string name){ 
 		Game_Manager.estancia.Reset_game();

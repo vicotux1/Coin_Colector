@@ -1618,6 +1618,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_level
       objectReference: {fileID: 0}
+    - target: {fileID: 9024279764816812363, guid: fcb2986ae55c9cdf2ac251566d0e716f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9024279764816812367, guid: fcb2986ae55c9cdf2ac251566d0e716f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3348,6 +3353,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_pause
       objectReference: {fileID: 0}
+    - target: {fileID: 1654789031334708180, guid: fd16627bac110ace4a10796fa5cb16d1,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1654789031334708180, guid: fd16627bac110ace4a10796fa5cb16d1,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1654789031334708180, guid: fd16627bac110ace4a10796fa5cb16d1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1654789031334708180, guid: fd16627bac110ace4a10796fa5cb16d1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1964189489702695963, guid: fd16627bac110ace4a10796fa5cb16d1,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -3553,16 +3578,6 @@ PrefabInstance:
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 7623765990904886968}
-    - target: {fileID: 5857012035919161643, guid: fd16627bac110ace4a10796fa5cb16d1,
-        type: 3}
-      propertyPath: m_AdditionalShaderChannelsFlag
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 5857012035919161643, guid: fd16627bac110ace4a10796fa5cb16d1,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6932998373847791215, guid: fd16627bac110ace4a10796fa5cb16d1,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -3598,11 +3613,6 @@ PrefabInstance:
       propertyPath: load_text
       value: 
       objectReference: {fileID: 1688683151}
-    - target: {fileID: 8922994495147729330, guid: fd16627bac110ace4a10796fa5cb16d1,
-        type: 3}
-      propertyPath: Wait
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 9125924172807396979, guid: fd16627bac110ace4a10796fa5cb16d1,
         type: 3}
       propertyPath: m_AnchorMin.x
