@@ -3,7 +3,6 @@
 
 "EN" Game made following the tutorial of "Roll-a-ball" (https://learn.unity.com/project/roll-a-ball-tutorial) from Unity Tecnologies and expanded to a game with mazes and various levels.
  
-![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Old_Inut/Assets/Coin_colector/capturas/1.5.7/CAPTURAS%201.5.7_01.png)
 -1.5.7 menu options
 ![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Old_Inut/Assets/Coin_colector/capturas/1.5.7/CAPTURAS%201.5.7_04.png)
 
