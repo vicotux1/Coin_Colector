@@ -5,13 +5,13 @@
  
 -1.5.5_MenuUI.Update
 
-![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Input_System/Assets/capturas/1.5.5_menuUI.Update.png)
+![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Old_Inut/Assets/Coin_colector/capturas/1.5.7/CAPTURAS%201.5.7_01.png)
 -1.5.5_Level1
-![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Input_System/Assets/capturas/1.5.5_Level1.png)
+![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Old_Inut/Assets/Coin_colector/capturas/1.5.7/CAPTURAS%201.5.7_02.png)
 -1.5.5_Pause_menu
-![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Input_System/Assets/capturas/Pause_menu.1.5.5.png)
+![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Old_Inut/Assets/Coin_colector/capturas/1.5.7/CAPTURAS%201.5.7_03.png)
 -1.5.5_level_selector
-![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Input_System/Assets/capturas/1.5.5_Level_select.png)
+![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Old_Inut/Assets/Coin_colector/capturas/1.5.7/CAPTURAS%201.5.7_04.png)
 
 
 
