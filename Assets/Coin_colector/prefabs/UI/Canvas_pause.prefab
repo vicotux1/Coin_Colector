@@ -1569,7 +1569,7 @@ RectTransform:
   m_GameObject: {fileID: 3925578720663048709}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.88135105, y: 0.88135105, z: 0.88135105}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8418700373403441585}
   - {fileID: 9183800152002470649}
@@ -1633,7 +1633,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 8922994495147729330}
         m_MethodName: FxSound
         m_Mode: 0
         m_Arguments:
@@ -2909,7 +2909,7 @@ RectTransform:
   m_GameObject: {fileID: 7448493223489746040}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.88135105, y: 0.88135105, z: 0.88135105}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5913629206963328484}
   - {fileID: 7392534577751543560}
@@ -2973,7 +2973,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 8922994495147729330}
         m_MethodName: MusicSound
         m_Mode: 0
         m_Arguments:

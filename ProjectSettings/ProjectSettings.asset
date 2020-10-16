@@ -126,7 +126,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 0
-  bundleVersion: 1.5.7_gamma
+  bundleVersion: 1.5.8_linear
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 0}
@@ -182,7 +182,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.VicotuxGames.Coin_colector
   buildNumber:
-    Standalone: 1.5.1_Level_updates
+    Standalone: 1.5.8
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 30
