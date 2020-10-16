@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 5697647368993365160}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.4917426, g: 0.5732473, b: 0.69615287, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: cd0e39c744950c9d4bf57ecdae884615,
+  m_LightingDataAsset: {fileID: 112000000, guid: 9b7d9be16616ec97f91a5ec5e2f669c4,
     type: 2}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -2617,6 +2617,11 @@ PrefabInstance:
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: set_enabled
       objectReference: {fileID: 0}
+    - target: {fileID: 5857012035919161643, guid: fd16627bac110ace4a10796fa5cb16d1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6128074454939839871, guid: fd16627bac110ace4a10796fa5cb16d1,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -3007,6 +3012,21 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 118980802}
+    - target: {fileID: 4530104508202389545, guid: 3d0bf609b722111aba5b6481fb67645d,
+        type: 3}
+      propertyPath: _Next_level
+      value: Level 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4530104508202389545, guid: 3d0bf609b722111aba5b6481fb67645d,
+        type: 3}
+      propertyPath: total_levels
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4530104508202389545, guid: 3d0bf609b722111aba5b6481fb67645d,
+        type: 3}
+      propertyPath: next_level
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4530104508202389547, guid: 3d0bf609b722111aba5b6481fb67645d,
         type: 3}
       propertyPath: m_Name
@@ -3576,7 +3596,7 @@ PrefabInstance:
     - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
         type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 1
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
         type: 3}
