@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 1, g: 1, b: 1, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.16981131, g: 0.16660732, b: 0.16660732, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.05
+  m_FogDensity: 0.15
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 44f2971b2f43478a880c964787268a30, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 1d0e6c14c2047b5c3a4fb4f1a3d050ac, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 5697647368993365160}
-  m_IndirectSpecularColor: {r: 1.0371844, g: 1.19918, b: 1.4594362, a: 1}
+  m_IndirectSpecularColor: {r: 0.4917426, g: 0.5732473, b: 0.69615287, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5534,6 +5534,61 @@ PrefabInstance:
     - target: {fileID: 4324864459201846, guid: 33c989ccfbbac094c8c983bf753111c7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117732409511168158, guid: 33c989ccfbbac094c8c983bf753111c7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.24017686
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117732409511168158, guid: 33c989ccfbbac094c8c983bf753111c7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.25069043
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117732409511168158, guid: 33c989ccfbbac094c8c983bf753111c7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.06435518
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117732409511168158, guid: 33c989ccfbbac094c8c983bf753111c7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.93558955
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117732409511168158, guid: 33c989ccfbbac094c8c983bf753111c7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 28.795002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117732409511168158, guid: 33c989ccfbbac094c8c983bf753111c7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -30.000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.6132076
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.6132076
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.6132076
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487573961773564710, guid: 33c989ccfbbac094c8c983bf753111c7,
+        type: 3}
+      propertyPath: m_Shadows.m_Resolution
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33c989ccfbbac094c8c983bf753111c7, type: 3}
