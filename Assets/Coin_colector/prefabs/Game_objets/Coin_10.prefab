@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 822794427931696641}
   - component: {fileID: 8015607471101476890}
   - component: {fileID: 1238105942731404795}
-  - component: {fileID: 6182318367052997364}
+  - component: {fileID: 1018629162}
   m_Layer: 0
   m_Name: Coin_10
   m_TagString: Coin
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1878413507911925480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -126,22 +126,18 @@ CapsuleCollider:
   m_Height: 0.40000004
   m_Direction: 1
   m_Center: {x: 0.00000012665987, y: -0.000000014901161, z: 0.00000012200326}
---- !u!95 &6182318367052997364
-Animator:
-  serializedVersion: 3
+--- !u!114 &1018629162
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878413507911925480}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7e7b4d56f64b1316195e5dfb4f5a7064, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e8995f9b92dac5438cd271c1c34174a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationX: 7
+  rotationY: 15
+  rotationZ: 0
