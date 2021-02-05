@@ -1,5 +1,5 @@
 # Coin colector
-"ES" Juego hecho siguiendo el tutorial de "Roll-a-ball" (https://learn.unity.com/project/roll-a-ball-tutorial) de Unity Tecnologies y expandido a un juego con laberintos y con varios niveles. 
+##### Juego hecho siguiendo el tutorial de "Roll-a-ball" (https://learn.unity.com/project/roll-a-ball-tutorial) de Unity Tecnologies y expandido a un juego con laberintos y con varios niveles. 
 
 * Todos los comportamientos/Scripts fueron escritos desde cero por mi, por eso puedes encontrar errores si eres un programador avanzados, soy un programador que aun esta aprendiendo.
 
