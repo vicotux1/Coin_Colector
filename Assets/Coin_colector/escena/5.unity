@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 5697647368993365160}
-  m_IndirectSpecularColor: {r: 0.4917426, g: 0.5732473, b: 0.69615287, a: 1}
+  m_IndirectSpecularColor: {r: 0.20647773, g: 0.2882091, b: 0.44252947, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6556,6 +6556,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3316011045042589190, guid: 0a9fcf134c4a09bbd92d421a77654e1e,
         type: 3}
+      propertyPath: LUT
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316011045042589190, guid: 0a9fcf134c4a09bbd92d421a77654e1e,
+        type: 3}
       propertyPath: Bloom
       value: 1
       objectReference: {fileID: 0}
@@ -6581,6 +6586,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3316011045042589190, guid: 0a9fcf134c4a09bbd92d421a77654e1e,
         type: 3}
+      propertyPath: LutAmount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316011045042589190, guid: 0a9fcf134c4a09bbd92d421a77654e1e,
+        type: 3}
       propertyPath: Brightness
       value: 0.6
       objectReference: {fileID: 0}
@@ -6588,6 +6598,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Saturation
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316011045042589190, guid: 0a9fcf134c4a09bbd92d421a77654e1e,
+        type: 3}
+      propertyPath: ImageFiltering
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7623765990953809416, guid: 0a9fcf134c4a09bbd92d421a77654e1e,
         type: 3}
