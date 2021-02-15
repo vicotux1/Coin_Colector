@@ -12,7 +12,7 @@
 
 * Audio se mutea al volver del nivel  al menu principal y denuevo al juego (error en el singleton?)
 
-* "options" no concerva los valores que modificas en las opciones de juego (falta implementar persistencia con Playerprefs)
+* "options" no conserva los valores que modificas en las opciones de juego (falta implementar persistencia con Playerprefs)
 
 
 ![Coín Colector 1.5.9_menu)](https://github.com/vicotux1/Coin_Colector/blob/Old_Input.System/Assets/capturas/1.5.9/00.png)
