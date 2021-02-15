@@ -8,22 +8,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Antorchas
-    second: {fileID: 2100000, guid: 7f6447541526d939bb8d2e125d6692ff, type: 2}
+    second: {fileID: 2100000, guid: 3292cf6014d8140328cc9279c23c103a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Aro
-    second: {fileID: 2100000, guid: 962f7c48cd91a9ef9ba0cf8a5cf595d3, type: 2}
+    second: {fileID: 2100000, guid: e0637bb8ed4c524468e191358bab65dc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: EstructuraPuerta
-    second: {fileID: 2100000, guid: 63504d6dfeec0dd99bc9907b3187bbdd, type: 2}
+    second: {fileID: 2100000, guid: c00d25508f7806350a8f7f96139f07c2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Mastil
-    second: {fileID: 2100000, guid: b564c11fb714149ccbad6cbc49a2ade1, type: 2}
+    second: {fileID: 2100000, guid: cf6caf613d29bf3159cfa6de22aab133, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -43,7 +43,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Muro_Obstruccion
-    second: {fileID: 2100000, guid: 2dc3336845bca0fb1b4f01aa7aea429d, type: 2}
+    second: {fileID: 2100000, guid: a0d895eb694335aa8954f81f3e2193f5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -53,7 +53,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Puerta
-    second: {fileID: 2100000, guid: 88e6106e70b2db468b903266413c8d4b, type: 2}
+    second: {fileID: 2100000, guid: 415eb602d21fc52e585c4c73bea39656, type: 2}
   materials:
     materialImportMode: 1
     materialName: 2
@@ -103,7 +103,7 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
-    meshOptimizationFlags: -1
+    meshOptimizationFlags: 0
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001

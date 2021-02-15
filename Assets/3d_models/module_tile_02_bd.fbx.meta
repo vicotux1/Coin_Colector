@@ -3,7 +3,12 @@ guid: 0f351205dcec0ef248e39d8d0c586703
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fantasy_Demon _Caves
+    second: {fileID: 2100000, guid: 341b08393599d2b4d8854827aae95022, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -53,7 +58,7 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
-    meshOptimizationFlags: -1
+    meshOptimizationFlags: 0
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
