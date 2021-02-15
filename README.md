@@ -1,20 +1,25 @@
 # Coin colector
-"ES" Juego hecho siguiendo el tutorial de "Roll-a-ball" (https://learn.unity.com/project/roll-a-ball-tutorial) de Unity Tecnologies y expandido a un juego con laberintos y con varios niveles.
+##### Juego hecho siguiendo el tutorial de "Roll-a-ball" (https://learn.unity.com/project/roll-a-ball-tutorial) de Unity Tecnologies y expandido a un juego con laberintos y con varios niveles. 
 
-"EN" Game made following the tutorial of "Roll-a-ball" (https://learn.unity.com/project/roll-a-ball-tutorial) from Unity Tecnologies and expanded to a game with mazes and various levels.
+* Todos los comportamientos/Scripts fueron escritos desde cero por mi, por eso puedes encontrar errores si eres un programador avanzados, soy un programador que aun esta aprendiendo.
 
--1.5.7 Main Menu
-![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Old_Inut/Assets/Coin_colector/capturas/1.5.7/CAPTURAS%201.5.7_01png)
+* El arte y los modelos 3d son descargados de internet, todos cuentan con licencia royalty free. No tengo los autores para dejar  referencia, salvo por los Assets de Laberinto de GameDevTraum, que aparecen en los niveles 2,3,4,5 y 6.
 
--1.5.7 menu options
-![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Old_Inut/Assets/Coin_colector/capturas/1.5.7/CAPTURAS%201.5.7_04.png)
+**El juego no esta terminado, ya es jugable al 100%, pero tiene algunos bugs que no he arreglado todabia.**
 
--1.5.7 Level 01
-![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Old_Inut/Assets/Coin_colector/capturas/1.5.7/CAPTURAS%201.5.7_02.png)
 
--1.5.7 Pause_menu
-![Coín Colector 1.5.5_menuUI.Update)](https://github.com/vicotux1/Coin_Colector/blob/Old_Inut/Assets/Coin_colector/capturas/1.5.7/CAPTURAS%201.5.7_03.png)
+**Bugs Actuales:** 
 
+* Audio se mutea al volver del nivel  al menu principal y denuevo al juego (error en el singleton?)
+
+* "options" no concerva los valores que modificas en las opciones de juego (falta implementar persistencia con Playerprefs)
+
+
+![Coín Colector 1.5.9_menu)](https://github.com/vicotux1/Coin_Colector/blob/Old_Input.System/Assets/capturas/1.5.9/00.png)
+
+![Coín Colector 1.5.9_level01)](https://github.com/vicotux1/Coin_Colector/blob/Old_Input.System/Assets/capturas/1.5.9/level01.png)
+
+![Coín Colector 1.5.9_options)](https://github.com/vicotux1/Coin_Colector/blob/Old_Input.System/Assets/capturas/1.5.9/options.png)
 
 
 
