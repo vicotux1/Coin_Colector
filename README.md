@@ -19,7 +19,7 @@
 
 ![Coín Colector 1.5.9_level01)](https://github.com/vicotux1/Coin_Colector/blob/Old_Input.System/capturas/1.5.9/level01.png)
 
-![Coín Colector 1.5.9_options)](https://github.com/vicotux1/Coin_Colector/blob/Old_Input.System/capturas/1.5.9/options.png)
+![Coín Colector 1.5.9_options)](https://github.com/vicotux1/Coin_Colector/blob/Old_Input.System/capturas/1.5.9/options2.png)
 
 
 
