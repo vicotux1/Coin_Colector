@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 5697647368993365160}
-  m_IndirectSpecularColor: {r: 0.4917426, g: 0.5732473, b: 0.69615287, a: 1}
+  m_IndirectSpecularColor: {r: 0.15679806, g: 0.19297594, b: 0.28348923, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: d05c7188f419ed459953b8f005fe4ed2,
+  m_LightingDataAsset: {fileID: 112000000, guid: 8c48253bf9a8f414d9d5b159bfbe1248,
     type: 2}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -1455,10 +1455,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7294118919792142459, guid: ef0982ef54191bab4b01ac1852b8d42b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7294118919792142463, guid: ef0982ef54191bab4b01ac1852b8d42b,
         type: 3}
       propertyPath: m_Name
       value: MobileControl
+      objectReference: {fileID: 0}
+    - target: {fileID: 8368738766110242810, guid: ef0982ef54191bab4b01ac1852b8d42b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef0982ef54191bab4b01ac1852b8d42b, type: 3}
