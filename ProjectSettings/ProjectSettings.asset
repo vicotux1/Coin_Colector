@@ -44,8 +44,8 @@ PlayerSettings:
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
-  defaultScreenWidth: 1024
-  defaultScreenHeight: 600
+  defaultScreenWidth: 1280
+  defaultScreenHeight: 720
   defaultScreenWidthWeb: 840
   defaultScreenHeightWeb: 480
   m_StereoRenderingPath: 0
@@ -121,12 +121,12 @@ PlayerSettings:
   vulkanEnableSetSRGBWrite: 0
   vulkanEnableLateAcquireNextImage: 0
   m_SupportedAspectRatios:
-    4:3: 0
-    5:4: 0
+    4:3: 1
+    5:4: 1
     16:10: 1
     16:9: 1
     Others: 0
-  bundleVersion: 1.5.9_gamma
+  bundleVersion: 1.5.10_gamma
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 0}

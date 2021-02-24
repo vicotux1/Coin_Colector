@@ -231,7 +231,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 0f351205dcec0ef248e39d8d0c586703,
         type: 3}
       propertyPath: m_ReceiveShadows
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 0f351205dcec0ef248e39d8d0c586703,
         type: 3}
@@ -351,7 +351,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 0f351205dcec0ef248e39d8d0c586703,
         type: 3}
       propertyPath: m_ReceiveShadows
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 0f351205dcec0ef248e39d8d0c586703,
         type: 3}
@@ -472,7 +472,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 612dc568778ea7216863d46f65266af6,
         type: 3}
       propertyPath: m_ReceiveShadows
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 612dc568778ea7216863d46f65266af6,
         type: 3}
@@ -592,7 +592,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 6d1ca0f0019a6face8b449558772c790,
         type: 3}
       propertyPath: m_ReceiveShadows
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 6d1ca0f0019a6face8b449558772c790,
         type: 3}
@@ -712,7 +712,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 0f351205dcec0ef248e39d8d0c586703,
         type: 3}
       propertyPath: m_ReceiveShadows
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 0f351205dcec0ef248e39d8d0c586703,
         type: 3}

@@ -7,6 +7,7 @@ using UnityEditor;
 #endif
 public class Menu : MonoBehaviour
 {
+	
 	public AudioSource Audio;
 	[Range(1,2)][SerializeField]int _MenuID=1;
 	public AudioClip Button;
@@ -36,7 +37,7 @@ public class Menu : MonoBehaviour
 		options.SetActive(true);
 		
 	}
-			
+ 		
 		
 	public void cursorF(string url){
 		Application.OpenURL(url);
@@ -104,7 +105,18 @@ public class Menu : MonoBehaviour
 			}	
 		 
 		}
-		public void fullScreen(bool Fullscreen){
+		 /*switch (int index)
+		{
+			case 0:
+			QualitySettings.SetQualityLevel(2);
+			break;
+			case 1:
+			QualitySettings.SetQualityLevel(1);
+			break;
+			case 2:QualitySettings.SetQualityLevel(0);
+			break;
+		}*/
+	public void fullScreen(bool Fullscreen){
 	Screen.fullScreen = Fullscreen;
 	}
 
