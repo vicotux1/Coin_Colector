@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
-public class Menu : MonoBehaviour
-{
+public class Menu : MonoBehaviour{
 	
 	public AudioSource Audio;
 	[Range(1,2)][SerializeField]int _MenuID=1;
@@ -14,12 +14,20 @@ public class Menu : MonoBehaviour
 	public GameObject mainmenu,options;
 	private void Awake(){
 		cursorfalse();
-		if(_MenuID==1){
-			mainmenuOn();
-		}if(_MenuID==2){
-			optionsOn();
-		}
-	}
+
+		if(_MenuID==1){mainmenuOn();}
+        if(_MenuID==2){optionsOn();}
+            }
+Resolution [] resolutions;
+public Dropdown DResolutions;
+ void start(){
+resolutions=Screen.resolutions;
+DResolutions.ClearOptions();
+List<string> opciones=New List <string>();
+//DResolutions.AddOptions(resolutions);
+
+}
+
 	public void Quit(){
         #if UNITY_EDITOR 
         EditorApplication.isPlaying = false;
