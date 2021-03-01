@@ -30,7 +30,7 @@ public class Game_Manager : MonoBehaviour
     AudioSource Audio;
     int Lives_initial;
     int Contador_initial,Contador_total;
-    PlayerController Player;
+    Player Player;
     
     #endregion
     #region Funtions Unity
@@ -39,7 +39,7 @@ public class Game_Manager : MonoBehaviour
         }
     private void Awake() {
     LoadData();
-    Player = FindObjectOfType<PlayerController>();
+    Player = FindObjectOfType<Player>();
     music(); 
     Cursor.visible = false;    
     live_text.text=" "+Life;

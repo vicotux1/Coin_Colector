@@ -45,7 +45,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.26
+  m_Radius: 0.29
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &6091615740726004545
 Rigidbody:
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
-  Posicion_inicial: {x: 1.22, y: 0.5, z: 5.62}
+  Posicion_inicial: {x: 4, y: 0.5, z: 2.5}
 --- !u!1001 &7161172596535293184
 PrefabInstance:
   m_ObjectHideFlags: 0
