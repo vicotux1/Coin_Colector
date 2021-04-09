@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7623765990953809520}
   - component: {fileID: 377056227074266975}
   - component: {fileID: 6870112758083454780}
+  - component: {fileID: 1705622857177587453}
   m_Layer: 8
   m_Name: Camera_Main
   m_TagString: MainCamera
@@ -61,14 +62,14 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 90
+  field of view: 45
   orthographic: 0
   orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: 1
+  m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -108,7 +109,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 7081eff74c92cecb192dd119cd2df66e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -126,9 +127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faea27cf99b081aa68b341d84f9bd49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Distancia_a_seguir: {x: 0, y: 5, z: -3.5}
+  _Distancia_a_seguir: {x: 0, y: 3.47, z: -2.62}
   smoothSpeed: 1
-  RotX: 60
+  RotX: 43.8
   RotY: 0
   Player: {fileID: 0}
   Tag_Seguir: Player
@@ -144,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d3f749976c088a4a8a73772e8a572bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Blur: 1
+  Blur: 0
   BlurAmount: 0.08
   BlurMask: {fileID: 2800000, guid: 74ab4394b0e842143bf0f7f14ba8f55e, type: 3}
   Bloom: 1
@@ -163,7 +164,7 @@ MonoBehaviour:
   Saturation: 0.28
   Exposure: 0.46
   Gamma: 0.3
-  Sharpness: 0.7
+  Sharpness: 0
   ChromaticAberration: 1
   Offset: 0.09
   FishEyeDistortion: 1
@@ -172,6 +173,66 @@ MonoBehaviour:
   LensDistortion: 0.1
   Vignette: 1
   VignetteColor: {r: 0, g: 0, b: 0, a: 1}
-  VignetteAmount: 0.05
-  VignetteSoftness: 0.5
+  VignetteAmount: 0.19
+  VignetteSoftness: 0.42
   material: {fileID: 2100000, guid: 3aeedadbfc1ffb644834cb2b7d57aa77, type: 2}
+--- !u!114 &1705622857177587453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7623765990953809416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 7623765990953809524}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  stopNaNPropagation: 0
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 2
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
